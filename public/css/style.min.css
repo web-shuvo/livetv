@@ -2877,3 +2877,13 @@ footer#site-footer {
         margin-top: 0;
     }
 }
+
+@media screen and (max-width: 400px) and (min-width: 300px) {
+    .cut {
+        font-size: 20px !important;
+    }
+
+    .cdt {
+        font-size: 12px !important;
+    }
+}
