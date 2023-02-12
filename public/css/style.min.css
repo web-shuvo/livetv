@@ -2826,8 +2826,37 @@ footer#site-footer {
     right: 0;
 }
 
-#myLive {
-    display: none;
+.liveBtn {
+    border: 1px solid red;
+    border-radius: 50px;
+    padding: 12px 25px;
+    font-size: 15px;
+    font-weight: 800;
+    background-color: red;
+    color: white;
+}
+
+.liveBtn:hover {
+    color: rgba(255, 255, 255, 0.538);
+}
+
+.mainAction {
+    margin-top: 80px;
+}
+
+.teamCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamImg {
+    width: 150px;
+}
+
+.teamCon p {
+    font-size: 100px;
+    margin: 0 30px;
 }
 
 @media (max-width: 992px) {
@@ -2843,4 +2872,8 @@ footer#site-footer {
     }
 }
 
-@media (min-width: 992px) {}
+@media screen and (max-width: 600px) and (min-width: 300px) {
+    .mainAction {
+        margin-top: 0;
+    }
+}
